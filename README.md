@@ -45,6 +45,6 @@
 
 ## 📊 GitHub データ
 <p align="center">
-  <img src="https://github-readme-stats-one-mauve-71.vercel.app/api?username=yuuto0816&show_icons=true&theme=transparent&count_private=true" alt="Yuto's GitHub Stats" />
+  <img src="https://github-readme-stats-one-mauve-71.vercel.app/api?username=yuuto0816&show_icons=true&theme=transparent&count_private=true&include_all_commits=true" alt="Yuto's GitHub Stats" />
   <img src="https://github-readme-stats-one-mauve-71.vercel.app/api/top-langs/?username=yuuto0816&layout=compact&theme=transparent" alt="Top Languages" />
 </p>
