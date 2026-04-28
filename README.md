@@ -1,3 +1,4 @@
+[![README Check](https://github.com/yuuto0816/yuuto0816/actions/workflows/check-readme.yml/badge.svg)](https://github.com/yuuto0816/yuuto0816/actions/workflows/check-readme.yml)
 <h1 align="center">Profile</h1>
 
 <p align="center">
