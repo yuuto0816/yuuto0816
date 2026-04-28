@@ -1,0 +1,27 @@
+# ワークフローの名称
+name: README Check
+
+# 実行のタイミング（mainブランチへのプッシュまたはプルリクエスト時）
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+# 実行される処理の内容
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      # ソースコードを読み込む
+      - uses: actions/checkout@v4
+      
+      # README.mdが存在するかコマンドで確認する
+      - name: Check file existence
+        run: |
+          if [ -f README.md ]; then
+            echo "README.md ファイルの存在を確認しました。"
+          else
+            echo "README.md ファイルが見つからないためエラーとします。"
+            exit 1
+          fi
